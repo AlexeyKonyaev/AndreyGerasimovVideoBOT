@@ -52,7 +52,7 @@ def reg_data(message):
 def reg_contact(message):
     global contact
     contact = message.text
-    bot.send_message(message.from_user.id, 'Заявка отправлена успено!')
+    bot.send_message(message.from_user.id, 'Заявка отправлена успешно!')
     bot.send_message(chat_id = -490711905, text = "НОВАЯ ЗАЯВКА ОТ ВИДЕО БОТА: " + "Частей в видео: " + parts + "; Фоновая музыка: " + music + "; Дата сдачи: " + data + "; Клиент: " + contact + ";")
 
 
